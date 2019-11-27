@@ -1,1 +1,49 @@
+.container{
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    border: rgb(7, 7, 92);
+    border-style: solid;
+    border-width: 5px;
+    width: 300px;
+    margin-left: 425px;
+}
 
+
+body{
+    background-image: url("https://i.pinimg.com/originals/7d/0b/25/7d0b25b065091c9c88d1e8f39dbbe7f8.jpg");
+  
+}
+
+.schedulerow {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    border: black solid 2px;
+}
+
+.time {
+    height: 90px;
+    width: calc(10% - 22px);
+    float: left;
+    border-right: black solid 2px;
+    background-color: white;
+}
+
+.event {
+    width: 80%;
+    height: 90px;
+    float: left;
+}
+
+.save {
+    height: 90px;
+    width: 10%;
+    float: left;
+}
+
+textarea {
+    border: 0px;
+    padding: 0px 10px;
+   font: 500;
+}
