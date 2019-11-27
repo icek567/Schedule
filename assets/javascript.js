@@ -1,7 +1,7 @@
 
 var timeSlot = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"]
 var eventsArray = ["", "", "", "", "", "", "", "", ""]
-var scheduleEl = $("#schedule")
+var schedule = $("#schedule")
 
 if (localStorage.getItem("eventsArray")) {
     eventsArray = JSON.parse(localStorage.getItem("eventsArray"))
@@ -25,7 +25,7 @@ function renderSchedule() {
         newRow.append(saveButton)
         
         
-        scheduleEl.append(newRow)
+        schedule.append(newRow)
     }
 }
 
@@ -40,4 +40,4 @@ function updateEvents() {
     }
 }
 
-scheduleEl.click(updateEvents)
+schedule.click(updateEvents)
