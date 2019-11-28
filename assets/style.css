@@ -1,5 +1,6 @@
 .container{
     background-color: white;
+    color: darkblue;
     width: fit-content;
     text-align: center;
     border: rgb(7, 7, 92);
@@ -19,7 +20,7 @@ body{
     width: 80%;
     height: 100px;
     margin: auto;
-    border: black solid 2px;
+    border: darkblue solid .5px;
 }
 
 .time {
@@ -28,12 +29,14 @@ body{
     float: left;
     border-right: black solid 2px;
     background-color: white;
+    color: darkblue;
 }
 
 .event {
     width: 80%;
     height: 90px;
     float: left;
+    color: darkblue;
 }
 
 .save {
