@@ -27,7 +27,7 @@ body{
     height: 90px;
     width: calc(10% - 22px);
     float: left;
-    border-right: black solid 2px;
+    border-right: darkblue solid 2px;
     background-color: white;
     color: darkblue;
 }
