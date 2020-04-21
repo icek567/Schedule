@@ -4,8 +4,8 @@ Day Schedule follows your day in a regular 8 hour time frame. The concept was th
 Getting Started
 Enter settings and once there activitate GitHub pages. Your website will be come live with the necessary link needed.
 
-Deployment
+## Deployment
 https://icek567.github.io/Schedule/
  
-Authors
+### Authors
 Sergio Perez
