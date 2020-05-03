@@ -1,26 +1,31 @@
-.container{
+/* h1{
     background-color: white;
     color: darkblue;
-    width: fit-content;
+    width: 50;
+    height: 50%;
     text-align: center;
     border: rgb(7, 7, 92);
     border-style: solid;
     border-width: 5px;
     width: 300px;
     margin-left: 425px;
+} */
+
+#main{
+    background-color: rgba(0, 0, 0, 0.521);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 body{
     background-image: url("https://i.pinimg.com/originals/7d/0b/25/7d0b25b065091c9c88d1e8f39dbbe7f8.jpg");
-  
 }
 
 .schedulerow {
     width: 80%;
     height: 100px;
     margin: auto;
-    border: darkblue solid .5px;
+    
 }
 
 .time {
@@ -28,12 +33,14 @@ body{
     width: calc(10% - 22px);
     float: left;
     border-right: darkblue solid 2px;
-    background-color: white;
-    color: darkblue;
+    background-color:rgba(0, 0, 0, 0.521);
+    color: rgb(250, 250, 250);
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 .event {
-    width: 80%;
+    width: 50%;
     height: 90px;
     float: left;
     color: darkblue;
@@ -48,5 +55,6 @@ body{
 textarea {
     border: 0px;
     padding: 0px 10px;
-   font: 500;
+    font: 500;
+    background-color: white;
 }
