@@ -12,8 +12,8 @@
 } */
 
 #main{
-    background-color: rgba(0, 0, 0, 0.521);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 139, 0.555);
 }
 
 
@@ -44,17 +44,23 @@ body{
     height: 90px;
     float: left;
     color: darkblue;
+    background-color: white;
 }
 
-.save {
+
+
+
+
+
+/* Keep these styles just in case I change my mind and want revert back */
+/* .save{
     height: 90px;
     width: 10%;
     float: left;
-}
+} */
 
-textarea {
+/* textarea {
     border: 0px;
     padding: 0px 10px;
     font: 500;
-    background-color: white;
-}
+} */

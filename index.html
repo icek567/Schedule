@@ -1,32 +1,38 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Day Schedule</title>
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossorigin="anonymous"
-      />
 
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
+<head>
+    <title>Day Schedule</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!-- jquery tag -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!-- fontawesome tag -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+        <!-- materialize tag -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <body>
-        <div class="container">
-            <div class="jumbotron text-white" id="main">
-                <h1 class="display-2"><i class="fas fa-clipboard-list"></i> Schedule</h1>
-                <h3>Organizing your day just got easier</h3>
-              </div>
-        </div>>
 
-        <div id="schedule">
-            
+</head>
+
+<body>
+    <div class="row heading">
+        <div class="card-panel white-text center" id="main">
+
+            <head>
+                <h1><i class="fas fa-clipboard-list"> </i> Day Schedule</h1>
+                <p>Organizing your day just got easier</p>
+            </head>
         </div>
+    </div>
 
-        <script src="assets/javascript.js"></script>
-    </body>
+    <div class="container">
+        <div id="schedule"></div>
+    </div>
+
+
+    <script src="assets/javascript.js"></script>
+</body>
+
 </html>
