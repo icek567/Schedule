@@ -21,7 +21,7 @@ function renderSchedule() {
         eventDiv.text(eventsArray[i])
         newRow.append(eventDiv)
 
-        var saveButton = $("<button>").addClass("save").attr("id", timeSlot[i] + "save")
+        var saveButton = $("<button>").addClass("waves-effect waves-light btn-large blue darken-4").attr("id", timeSlot[i] + "waves-effect waves-light btn-large blue darken-4")
         saveButton.text("Save")
         newRow.append(saveButton)
         
@@ -34,7 +34,7 @@ renderSchedule()
 
 // saving to localstorage
 function updateEvents() {
-    if (event.target.getAttribute("class") === "save") {
+    if (event.target.getAttribute("class") === "waves-effect waves-light btn-large blue darken-4") {
         for (var i = 0; i< 9; i++) {
             eventsArray[i] = $("#" + timeSlot[i] + "event").val()
             localStorage.setItem("eventsArray", JSON.stringify(eventsArray))
